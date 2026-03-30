@@ -1,0 +1,72 @@
+
+ResNet 18 
+:: ── 2-bit ────────────────────────────────────────────── 
+python main.py --bit 2 --arch resnet18_quickdraw --epochs 30
+python snn_ft.py --bit 2 --k 3 --arch resnet18_quickdraw --num_epochs 3 
+
+:: ── 3-bit ────────────────────────────────────────────── 
+python main.py --bit 3 --arch resnet18_quickdraw --epochs 30
+python snn_ft.py --bit 3 --k 7 --arch resnet18_quickdraw --num_epochs 3 
+
+:: ── 4-bit ──────────────────────────────────────────────
+python main.py --bit 4 --arch resnet18_quickdraw --epochs 30
+python snn_ft.py --bit 4 --k 15 --arch resnet18_quickdraw --num_epochs 3 
+
+==============================================================
+VGG 16
+:: ── 2-bit ────────────────────────────────────────────── 
+python main.py --bit 2 --arch vgg16_quickdraw --epochs 30
+python snn_ft.py --bit 2 --k 3 --arch vgg16_quickdraw --num_epochs 3
+
+:: ── 3-bit ────────────────────────────────────────────── 
+python main.py --bit 3 --arch vgg16_quickdraw --epochs 30
+python snn_ft.py --bit 3 --k 7 --arch vgg16_quickdraw --num_epochs 3
+
+:: ── 4-bit ────────────────────────────────────────────── 
+python main.py --bit 4 --arch vgg16_quickdraw --epochs 30
+python snn_ft.py --bit 4 --k 15 --arch vgg16_quickdraw --num_epochs 3
+
+==============================================================
+AlexNet
+:: ── 2-bit ────────────────────────────────────────────── 
+python main.py --bit 2 --arch alexnet_quickdraw --epochs 30
+python snn_ft.py --bit 2 --k 3 --arch alexnet_quickdraw --num_epochs 3
+
+:: ── 3-bit ──────────────────────────────────────────────
+python main.py --bit 3 --arch alexnet_quickdraw --epochs 30 
+python snn_ft.py --bit 3 --k 7 --arch alexnet_quickdraw --num_epochs 3
+
+:: ── 4-bit ──────────────────────────────────────────────
+python main.py --bit 4 --arch alexnet_quickdraw --epochs 30 
+python snn_ft.py --bit 4 --k 15 --arch alexnet_quickdraw --num_epochs 3
+
+==============================================================
+EfficientNetV2
+:: ── 2-bit ────────────────────────────────────────────── 
+python main.py --bit 2 --arch efficientnetv2_quickdraw --epochs 30
+python snn_ft.py --bit 2 --k 3 --arch efficientnetv2_quickdraw --num_epochs 3
+
+:: ── 3-bit ────────────────────────────────────────────── 
+python main.py --bit 3 --arch efficientnetv2_quickdraw --epochs 30
+python snn_ft.py --bit 3 --k 7 --arch efficientnetv2_quickdraw --num_epochs 3
+
+:: ── 4-bit ────────────────────────────────────────────── 
+python main.py --bit 4 --arch efficientnetv2_quickdraw --epochs 30
+python snn_ft.py --bit 4 --k 15 --arch efficientnetv2_quickdraw --num_epochs 3
+
+==============================================================
+InceptionNetv4
+:: ── 2-bit ────────────────────────────────────────────── 
+python main.py --bit 2 --arch inceptionnetv4_quickdraw --epochs 30
+python snn_ft.py --bit 2 --k 3 --arch inceptionnetv4_quickdraw --num_epochs 3
+
+:: ── 3-bit ────────────────────────────────────────────── 
+python main.py --bit 3 --arch inceptionnetv4_quickdraw --epochs 30
+python snn_ft.py --bit 3 --k 7 --arch inceptionnetv4_quickdraw --num_epochs 3
+
+:: ── 4-bit ────────────────────────────────────────────── 
+python main.py --bit 4 --arch inceptionnetv4_quickdraw --epochs 30
+python snn_ft.py --bit 4 --k 15 --arch inceptionnetv4_quickdraw --num_epochs 3
+
+==============================================================
+

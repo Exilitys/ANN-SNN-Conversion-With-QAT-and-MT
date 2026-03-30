@@ -1,0 +1,9 @@
+dataset
+dataset_tensor
+best_result
+result
+best_result\resnet18_quickdraw_2bit
+best_result\resnet18_quickdraw_2bit_ft
+best_result\resnet18_quickdraw_3bit
+best_result\resnet18_quickdraw_3bit_ft
+best_result\vgg16_quickdraw_2bit

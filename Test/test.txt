@@ -1,0 +1,132 @@
+# View full history table
+python test.py --show-history
+=========================================================
+=========================================================
+Resnet 18 2 bit 1.0
+python test.py `
+  --arch resnet18_quickdraw --bit 2 `
+  --ann-ckpt best_result\resnet18_quickdraw_2bit\model_best-1.pth.tar `
+  --ft-ckpt  best_result\resnet18_quickdraw_2bit_ft\model_best-1.pth.tar `
+  --run-label run_1 `
+  --model-version 1.0
+
+==========================================================
+Resnet 18 3 bit 1.0
+python test.py `
+  --arch resnet18_quickdraw --bit 3 `
+  --ann-ckpt best_result\resnet18_quickdraw_3bit\model_best-1.pth.tar `
+  --ft-ckpt  best_result\resnet18_quickdraw_3bit_ft\model_best-1.pth.tar `
+  --run-label run_2 `
+  --model-version 1.0
+
+==========================================================
+Resnet 18 4 bit 1.0
+python test.py `
+  --arch resnet18_quickdraw --bit 4 `
+  --ann-ckpt best_result\resnet18_quickdraw_4bit\model_best-1.pth.tar `
+  --ft-ckpt  best_result\resnet18_quickdraw_4bit_ft\model_best-1.pth.tar `
+  --run-label run_3 `
+  --model-version 1.0
+==========================================================
+==========================================================
+VGG 16 2 bit 1.0
+python test.py `
+  --arch vgg16_quickdraw --bit 2 `
+  --ann-ckpt best_result\vgg16_quickdraw_2bit\model_best-1.pth.tar `
+  --ft-ckpt  best_result\vgg16_quickdraw_2bit_ft\model_best-1.pth.tar `
+  --run-label run_4 `
+  --model-version 1.0
+========================================================
+VGG 16 3 bit 1.0
+python test.py `
+  --arch vgg16_quickdraw --bit 3 `
+  --ann-ckpt best_result\vgg16_quickdraw_3bit\model_best-1.pth.tar `
+  --ft-ckpt  best_result\vgg16_quickdraw_3bit_ft\model_best-1.pth.tar `
+  --run-label run_5 `
+  --model-version 1.0
+========================================================
+VGG 16 4 bit 1.0
+python test.py `
+  --arch vgg16_quickdraw --bit 4 `
+  --ann-ckpt best_result\vgg16_quickdraw_4bit\model_best-1.pth.tar `
+  --ft-ckpt  best_result\vgg16_quickdraw_4bit_ft\model_best-1.pth.tar `
+  --run-label run_6 `
+  --model-version 1.0
+
+========================================================
+=========================================================
+AlexNet 2 bit 1.0
+python test.py `
+  --arch alexnet_quickdraw --bit 2 `
+  --ann-ckpt best_result\alexnet_quickdraw_2bit\model_best-1.pth.tar `
+  --ft-ckpt  best_result\alexnet_quickdraw_2bit_ft\model_best-1.pth.tar `
+  --run-label run_7 `
+  --model-version 1.0
+========================================================
+AlexNet 3 bit 1.0
+python test.py `
+  --arch alexnet_quickdraw --bit 3 `
+  --ann-ckpt best_result\alexnet_quickdraw_3bit\model_best-1.pth.tar `
+  --ft-ckpt  best_result\alexnet_quickdraw_3bit_ft\model_best-1.pth.tar `
+  --run-label run_8 `
+  --model-version 1.0
+========================================================
+AlexNet 4 bit 1.0
+python test.py `
+  --arch alexnet_quickdraw --bit 4 `
+  --ann-ckpt best_result\alexnet_quickdraw_4bit\model_best-1.pth.tar `
+  --ft-ckpt  best_result\alexnet_quickdraw_4bit_ft\model_best-1.pth.tar `
+  --run-label run_9 `
+  --model-version 1.0
+
+========================================================
+========================================================
+InceptionNetV4 2 bit 1.0
+python test.py `
+  --arch inceptionnetv4_quickdraw --bit 2 `
+  --ann-ckpt best_result\inceptionnetv4_quickdraw_2bit\model_best-1.pth.tar `
+  --ft-ckpt  best_result\inceptionnetv4_quickdraw_2bit_ft\model_best-1.pth.tar `
+  --run-label run_10 `
+  --model-version 1.0
+========================================================
+InceptionNetV4 3 bit 1.0
+python test.py `
+  --arch inceptionnetv4_quickdraw --bit 3 `
+  --ann-ckpt best_result\inceptionnetv4_quickdraw_3bit\model_best-1.pth.tar `
+  --ft-ckpt  best_result\inceptionnetv4_quickdraw_3bit_ft\model_best-1.pth.tar `
+  --run-label run_11 `
+  --model-version 1.0
+========================================================
+InceptionNetV4 4 bit 1.0
+python test.py `
+  --arch inceptionnetv4_quickdraw --bit 4 `
+  --ann-ckpt best_result\inceptionnetv4_quickdraw_4bit\model_best-1.pth.tar `
+  --ft-ckpt  best_result\inceptionnetv4_quickdraw_4bit_ft\model_best-1.pth.tar `
+  --run-label run_12 `
+  --model-version 1.0
+
+========================================================
+========================================================
+EfficientNetV2 2 bit 1.0
+python test.py `
+  --arch efficientnetv2_quickdraw --bit 2 `
+  --ann-ckpt best_result\efficientnetv2_quickdraw_2bit\model_best-1.pth.tar `
+  --ft-ckpt  best_result\efficientnetv2_quickdraw_2bit_ft\model_best-1.pth.tar `
+  --run-label run_13 `
+  --model-version 1.0
+========================================================
+EfficientNetV2 3 bit 1.0
+python test.py `
+  --arch efficientnetv2_quickdraw --bit 3 `
+  --ann-ckpt best_result\efficientnetv2_quickdraw_3bit\model_best-1.pth.tar `
+  --ft-ckpt  best_result\efficientnetv2_quickdraw_3bit_ft\model_best-1.pth.tar `
+  --run-label run_14 `
+  --model-version 1.0
+========================================================
+EfficientNetV2 4 bit 1.0
+python test.py `
+  --arch efficientnetv2_quickdraw --bit 4 `
+  --ann-ckpt best_result\efficientnetv2_quickdraw_4bit\model_best-1.pth.tar `
+  --ft-ckpt  best_result\efficientnetv2_quickdraw_4bit_ft\model_best-1.pth.tar `
+  --run-label run_15 `
+  --model-version 1.0
