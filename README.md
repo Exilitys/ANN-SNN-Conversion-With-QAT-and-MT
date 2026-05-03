@@ -278,3 +278,9 @@ Binus University
 **Bren Alden**
 Binus University
 📧 [bren.alden@binus.ac.id](mailto:bren.alden@binus.ac.id)
+
+## License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+Copyright (c) 2026 Jonathan Carlo, Bren Alden
