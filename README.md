@@ -272,12 +272,16 @@ Results are appended to `eval_history.jsonl`
 ## Authors
 
 **Jonathan Carlo**
-Binus University
-📧 [jonathan.carlo@binus.ac.id](mailto:jonathan.carlo@binus.ac.id)
+- Computer Science Department, School of Computer Science
+- Binus University, Tangerang, Indonesia
+- [jonathan.carlo@binus.ac.id](mailto:jonathan.carlo@binus.ac.id)
 
 **Bren Alden**
-Binus University
-📧 [bren.alden@binus.ac.id](mailto:bren.alden@binus.ac.id)
+- Computer Science Department, School of Computer Science
+- Binus University, Tangerang, Indonesia
+- [bren.alden@binus.ac.id](mailto:bren.alden@binus.ac.id)
+
+---
 
 ## License
 
